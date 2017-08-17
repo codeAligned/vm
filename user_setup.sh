@@ -25,6 +25,9 @@ main() {
     eval `dbus-launch --sh-syntax`
     xfconf-query -c xsettings -p /Net/IconThemeName -s "Tango"
     kill -HUP $DBUS_SESSION_BUS_PID
+
+    # Copy wallpaper into VM.
+    cp /vagrant/background_fall2017.jpg .
 }
 
 main
