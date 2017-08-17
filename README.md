@@ -22,9 +22,9 @@
 The virtual machine is running Ubuntu 14.04 with the Xfce desktop environment.
 The virtual machine ships with Java 8 (installed in `~/jdk1.8.0_131`), Eclipse
 Neon (installed in `~/eclipse`), and the community version of IntelliJ IDEA
-(installed in `idea-IC-172.3757.52`). You can write code in the virtual machine
-(recommended) or on your local machine (not recommended), but **all code will
-be tested in the VM**.
+(installed in `~/idea-IC-172.3757.52`). You can write code in the virtual
+machine (recommended) or on your local machine (not recommended), but **all
+code will be tested in the VM**.
 
 If you do prefer to develop on your local machine, we recommend you set up
 [VirtualBox shared
