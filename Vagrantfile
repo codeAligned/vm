@@ -11,9 +11,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.ssh.forward_agent = true
 
     config.vm.provider "virtualbox" do |v|
-        v.gui = true
-        v.memory = 2048
         v.name = "cs186-2017fa"
+        v.gui = true
+        v.cpus = 4
+        v.memory = 4096
 
         # By default, the download speed in the VM can be really slow. This
         # line speeds up the download speed considerably [1].
