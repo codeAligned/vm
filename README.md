@@ -21,12 +21,12 @@
 
 The virtual machine is running Ubuntu 14.04 with the Xfce desktop environment.
 The virtual machine ships with Java 8 (installed in `~/jdk1.8.0_131`), Eclipse
-Neon (installed in `~/eclipse), and the community version of IntelliJ IDEA
+Neon (installed in `~/eclipse`), and the community version of IntelliJ IDEA
 (installed in `idea-IC-172.3757.52`). You can write code in the virtual machine
 (recommended) or on your local machine (not recommended), but **all code will
 be tested in the VM**.
 
-If you do prefer to develop on local machine, we recommend you set up
+If you do prefer to develop on your local machine, we recommend you set up
 [VirtualBox shared
 folders](https://www.virtualbox.org/manual/ch04.html#sharedfolders). If you
 want to develop in the VM but would prefer to use the command line instead of
@@ -48,8 +48,7 @@ the GUI, we recommend you use
 2. Log into the VM from the GUI that was launched. The username and password
    are both `vagrant`.
 3. When prompted, select the default menu bar.
-4. Click Applications Menu > Settings > Desktop. Click folder and select
-   vagrant. Click on the appropriate background and then hit close.
+4. Click **Applications Menu > Settings > Desktop**. Click **folder** and
+   select **vagrant**. Click on the appropriate background and then hit close.
 5. `vagrant halt` the machine.
-6. Select the machine in VirtualBox and select File > Export Appliance.
-7. Power off the VM by running `vagrant halt`. Reboot the VM with `vagrant up`.
+6. Select the machine in VirtualBox and select **File > Export Appliance**.
